@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+/* 1. Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* 2. Center the image */
+#featured-property img {
+  display: block;
+  margin: 0 auto;  /* centers the image */
+}
+
+/* 3. Style the navigation links */
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 0 10px;             /* left & right padding */
+  background-color: grey;      /* pick any color you like */
+  color: white;                /* makes text visible */
+  text-decoration: none;       /* remove underline */
+}
+
+/* 4. Style the image caption */
+#featured-property figcaption {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* 5. Style the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;   /* center + vertical spacing */
+  text-align: center;
+}
+
+/* 6. Make #details section horizontal */
+#details div {
+  float: left;
+  width: 25%;              /* 4 equal columns */
+  background-color: #f2f2f2;  /* pick a consistent background */
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;  /* avoids overflow from padding */
+}
